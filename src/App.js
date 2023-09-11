@@ -1,13 +1,15 @@
 import React from 'react';
-import Routes from './routes/Routes';
+import AppRoutes from './routes/AppRoutes';
 import './App.scss';
+
 
 
 function App() {
   return (
-  
-  <Routes /> 
-  
-      );
+   
+      <AppRoutes />
+
+
+  );
 }
 export default App;
